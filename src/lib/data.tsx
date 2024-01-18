@@ -16,10 +16,6 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 type Experience = {
