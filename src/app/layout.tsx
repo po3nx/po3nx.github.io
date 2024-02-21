@@ -19,6 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
       <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
       <StarsCanvas />
       <Navbar />
