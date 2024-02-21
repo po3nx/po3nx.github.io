@@ -22,6 +22,7 @@ const Navbar = () => {
                         <a href="#about-me" className="cursor-pointer">
                             About me
                         </a>
+                        <a class="github-button" href="https://github.com/sponsors/po3nx" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @po3nx on GitHub">Sponsor</a>
                         <a href="#skills" className="cursor-pointer">
                             Skills
                         </a>
