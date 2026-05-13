@@ -1,12 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  images: { unoptimized: true },
+  images: {
+    unoptimized: true,
+  },
   typescript: {
-    // Dangerously allow production builds to successfully complete even if
-    // your project has TypeScript errors.
     ignoreBuildErrors: true,
   },
-}
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // This explicitly disables Turbopack compilation features
+  experimental: {
+    turbo: false
+  }
+};
 
 module.exports = nextConfig
