@@ -5,14 +5,12 @@ const nextConfig = {
     unoptimized: true,
   },
   typescript: {
+    // Dangerously allow production builds to complete with type errors
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  // This explicitly disables Turbopack compilation features
   experimental: {
-    turbo: false
+    // Turn off internal build optimizations that might trigger code crashes
+    optimizePackageImports: []
   }
 };
 
