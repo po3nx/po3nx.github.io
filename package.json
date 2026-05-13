@@ -12,16 +12,16 @@
     "@heroicons/react": "^2.0.18",
     "framer-motion": "^11.15.0",
     "next": "16.2.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@react-three/drei": "^9.105.6",
     "@react-three/fiber": "^8.15.4",
     "@types/node": "^20",
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
@@ -34,9 +34,9 @@
   },
   "resolutions": {
     "glob": "10.5.0",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1"
   }
 }
